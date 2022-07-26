@@ -1,6 +1,6 @@
 import { ACTIONS } from "./actions"
 import { evaluate } from "."
-
+/*eslint-disable */
 export function reducer(state, {type, payload}) {
     switch(type) {
       case ACTIONS.ADD_DIGIT:
@@ -68,3 +68,4 @@ export function reducer(state, {type, payload}) {
         }
     }
   }
+   /* eslint-enable */
