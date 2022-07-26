@@ -1,3 +1,4 @@
+/*eslint-disable */
 export function evaluate({currentOperand, previousOperand, operation}){
     const prev = parseFloat(previousOperand)
     const current = parseFloat(currentOperand)
@@ -20,3 +21,4 @@ export function evaluate({currentOperand, previousOperand, operation}){
   
     return computation.toString()
   }
+   /* eslint-enable */
